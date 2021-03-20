@@ -1,80 +1,27 @@
+/* Rules */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
-body {
-    width : 90%;
-    margin : 0 auto;
-    background-color : lightgrey;
-    font-family : Verdana, Tahoma, sans-serif;
+/* Header */
+.site_container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px auto;
+    width: 60%;
 }
 
-.container_header{
-    width: 90%;
-    margin: auto;
-    background-color: cornsilk;
+.logo{
+    height: 80px;
 }
 
 header{
-    height: 100px;
-    margin: auto;
+    background-color: ghostwhite;
+    height: 120px;
 }
 
-main {
-    background-color : royalblue;
+a{
+    color: rgb(63, 63, 63);
 }
 
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.hero_image{
-    height: 500px;
-    background-color: cadetblue;
-    float: left;
-}
-
-.container_main{
-    width: 90%;
-    margin: auto;
-    border: 1px solid violet;
-    background-color: yellowgreen;
-    height: 500px;
-}
-
-.sidebar_left{
-    width: 20%;
-    float: left;
-    height: 100%;
-    padding: 15px;
-    background-color: wheat;
-}
-main.content{
-    float: left;
-    width: 60%;
-    height: 100%;
-
-}
-.sidebar_right{
-    width: 20%;
-    float: left;
-    height: 100%;
-    padding: 15px;
-    background-color: palegreen;
-}
-
-
-footer{
-    background-color: darksalmon;
-    text-align: center;
-    width: 90%;
-    margin: auto;
-}
-
-.heart{
-    color: crimson;
-}
+/* Main */
