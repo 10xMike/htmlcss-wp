@@ -4,10 +4,16 @@
     padding: 0;
 }
 
+body {
+    width : 90%;
+    margin : 0 auto;
+    background-color : lightgrey;
+    font-family : Verdana, Tahoma, sans-serif;
+}
+
 .container_header{
     width: 90%;
     margin: auto;
-    border: 1px solid chocolate;
     background-color: cornsilk;
 }
 
@@ -16,15 +22,20 @@ header{
     margin: auto;
 }
 
+main {
+    background-color : royalblue;
+}
+
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
 
-.frontpage{
+.hero_image{
     height: 500px;
     background-color: cadetblue;
+    float: left;
 }
 
 .container_main{
@@ -58,5 +69,12 @@ main.content{
 
 
 footer{
+    background-color: darksalmon;
     text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.heart{
+    color: crimson;
 }
