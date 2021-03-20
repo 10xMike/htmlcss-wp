@@ -58,3 +58,11 @@ a{
     background-image: url('./img-1.jpg');
 }
 
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.heart{
+    color: crimson;
+}
