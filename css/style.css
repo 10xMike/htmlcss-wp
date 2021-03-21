@@ -18,6 +18,7 @@
 
 header{
     background-color: white;
+    height: 100px;
 }
 
 a{
@@ -44,10 +45,26 @@ main {
     height: 500px;
 }
 
+h2{
+    max-width: 40%;
+    padding-top: 300px;
+    padding-left: 1rem;
+}
+
+p{
+    padding-left: 1rem;
+    max-width: 40%;
+}
+
+.container_content{
+    margin-bottom: 2rem;
+}
+
 .columns{
-    width: 25%;
+    width: 20%;
+    background-color: white;
     float: left;
-    height: 500px;
+    height: 600px;
 }
 
 .banner_background{
@@ -56,6 +73,7 @@ main {
     height: 500px;
     width: 100%;
     border-radius: 14px;
+    filter: brightness(70%);
 }
 
 .clearfix::after{
@@ -65,22 +83,22 @@ main {
 }
 
 .label{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    padding-top: 30px;
 }
 
 .text{
-    color: lightgrey;
-    margin-top: 1rem;
-}
-
-.left_image{
-    background-image: url('./img-1.jpg');
+    color: white;
 }
 
 footer{
-    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+
+    margin-top: 20px;
     text-align: center;
+
+    text-align: center;
+    height: 30px;
+    width: 100%;
 }
 
 /* .left_column, .right_column, .main_column {
@@ -92,16 +110,58 @@ footer{
 }
 
 .main_column{ 
+    width: 60%;
+    padding:0 2% ;
+    height: 300px;
+    background-color: white;
     float: left;
-    width: 50%;
-    background-color: lime;
 
+}
+
+.descriptive_text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.descriptive_text>span{
+    color: gray;
+    
+}
+
+.descriptive_text>h3{
+    color: black;
 }
 
 .left_column{
-    background-color: mediumseagreen;
+    background-color: white;
 }
 
 .right_column{
-    background-color: mediumblue;
+    background-color: white;
+}
+
+.left_image{
+    background-image: url('./img-1.jpg');
+    background-size: cover;
+    height: 180px;
+    width: 100%;
+    filter: brightness(70%);
+    border-radius: 1rem;
+}
+
+.right_image{
+    background-image: url('./img-3.jpg');
+    background-size: cover;
+    height: 180px;
+    width: 100%;
+    filter: brightness(70%);
+    border-radius: 1rem;
+}
+
+.main_image{
+    background-image: url('./banner-2.jpg');
+    background-size: cover;
+    background-position: 50%;
+    height: 180px;
+    width: 100%;
+    border-radius: 1rem;
+    filter: brightness(70%);
 }
